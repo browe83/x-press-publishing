@@ -91,7 +91,7 @@ seriesRouter
               if (err) {
                 next(err);
               } else {
-                  res.sendStatus(204);
+                res.sendStatus(204);
               }
             });
         } else {
